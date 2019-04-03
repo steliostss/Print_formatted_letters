@@ -1,0 +1,4 @@
+/home/guru/Desktop/vassilis/Project1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/guru/Desktop/vassilis/Project1/cmake-build-debug/CMakeFiles/Project1.dir
+/home/guru/Desktop/vassilis/Project1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/guru/Desktop/vassilis/Project1/cmake-build-debug/CMakeFiles/Project2.dir
