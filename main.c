@@ -1,4 +1,4 @@
-#include <stdio.h>
+ v#include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 
@@ -17,6 +17,9 @@ int main() {
     char* label;
     int* int_array = createIntArray(N);
     double* double_array = createDoubleArray(N);
+
+    fill_array((double*)int_array,N);
+    fill_array(double_array,N);
 
     label = "test label";
 
@@ -59,11 +62,11 @@ void printDoubleArray(char* label, double* arr, int N) {\
 
     for (int i=0; i<N; ++i) {
         //print value of array and newline
-        printf("%f\n", arr[i]);
+        printf("%d\n", arr[i]);
     }
 
     //print the last hashtag
-    printf("#");
+    printf("#\n");
 
 }
 
