@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <stdbool.h>
 
 double* combine(double* arr1, double* arr2, int N);
 double combFunc(double v1, double v2, int i, double* arr1, double* arr2);
@@ -19,6 +20,8 @@ int main() {
     char* label;
     int* int_array = createIntArray(N);
     double* double_array = createDoubleArray(N);
+
+    bool c;
 
     fill_array((double*)int_array,N);
     fill_array(double_array,N);
