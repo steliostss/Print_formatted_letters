@@ -118,9 +118,12 @@ void print_letters (char* input, int width, int height, char* outfile_path)
 //            return 1;
             return;
         }
+        //PRINT IN FILE
+        //COMPLETE THIS LINE
     }
     else {
         //outfile was not given, print in stdout
+        //COMPLETE THIS LINE
         return;
     }
 }
@@ -151,6 +154,17 @@ void execute_program(char* input, FILE* fontfile, char* outfile_path)
     int width  = fgetc(fontfile);
 
     //WRITE FOR LOOP HERE
-
+    //Structure of program:
+    /*
+     *
+     * n = recognise_letter
+     * for(i=0; i<height; ++i) {
+     *      for(j=0; j<counter; ++j) {
+     *          temp_letter = find_letter(n, line, width, height);
+     *          print_letters(temp_letter, width, height, outfile_path);
+     *      }
+     * }
+     *
+     */
 }
 
