@@ -147,9 +147,10 @@ char* find_letter_in_fontfile(FILE* fontfile, int letter_index, int offset, int 
 void execute_program(char* input, FILE* fontfile, char* outfile_path)
 {
     int height = fgetc(fontfile);
+    fgetc(fontfile); //get space
     int width  = fgetc(fontfile);
 
-
+    //WRITE FOR LOOP HERE
 
 }
 
