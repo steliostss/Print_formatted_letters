@@ -111,30 +111,70 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Project1
+# Target rules for targets named Letters
 
 # Build rule for target.
-Project1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Project1
-.PHONY : Project1
+Letters: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Letters
+.PHONY : Letters
 
 # fast build rule for target.
-Project1/fast:
-	$(MAKE) -f CMakeFiles/Project1.dir/build.make CMakeFiles/Project1.dir/build
-.PHONY : Project1/fast
+Letters/fast:
+	$(MAKE) -f CMakeFiles/Letters.dir/build.make CMakeFiles/Letters.dir/build
+.PHONY : Letters/fast
 
 #=============================================================================
-# Target rules for targets named Project2
+# Target rules for targets named Arrays
 
 # Build rule for target.
-Project2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Project2
-.PHONY : Project2
+Arrays: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Arrays
+.PHONY : Arrays
 
 # fast build rule for target.
-Project2/fast:
-	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/build
-.PHONY : Project2/fast
+Arrays/fast:
+	$(MAKE) -f CMakeFiles/Arrays.dir/build.make CMakeFiles/Arrays.dir/build
+.PHONY : Arrays/fast
+
+#=============================================================================
+# Target rules for targets named Test
+
+# Build rule for target.
+Test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Test
+.PHONY : Test
+
+# fast build rule for target.
+Test/fast:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/build
+.PHONY : Test/fast
+
+letters.o: letters.c.o
+
+.PHONY : letters.o
+
+# target to build an object file
+letters.c.o:
+	$(MAKE) -f CMakeFiles/Letters.dir/build.make CMakeFiles/Letters.dir/letters.c.o
+.PHONY : letters.c.o
+
+letters.i: letters.c.i
+
+.PHONY : letters.i
+
+# target to preprocess a source file
+letters.c.i:
+	$(MAKE) -f CMakeFiles/Letters.dir/build.make CMakeFiles/Letters.dir/letters.c.i
+.PHONY : letters.c.i
+
+letters.s: letters.c.s
+
+.PHONY : letters.s
+
+# target to generate assembly for a file
+letters.c.s:
+	$(MAKE) -f CMakeFiles/Letters.dir/build.make CMakeFiles/Letters.dir/letters.c.s
+.PHONY : letters.c.s
 
 main.o: main.c.o
 
@@ -142,7 +182,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/Project1.dir/build.make CMakeFiles/Project1.dir/main.c.o
+	$(MAKE) -f CMakeFiles/Arrays.dir/build.make CMakeFiles/Arrays.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -151,7 +191,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/Project1.dir/build.make CMakeFiles/Project1.dir/main.c.i
+	$(MAKE) -f CMakeFiles/Arrays.dir/build.make CMakeFiles/Arrays.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -160,7 +200,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/Project1.dir/build.make CMakeFiles/Project1.dir/main.c.s
+	$(MAKE) -f CMakeFiles/Arrays.dir/build.make CMakeFiles/Arrays.dir/main.c.s
 .PHONY : main.c.s
 
 test.o: test.c.o
@@ -169,7 +209,7 @@ test.o: test.c.o
 
 # target to build an object file
 test.c.o:
-	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/test.c.o
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/test.c.o
 .PHONY : test.c.o
 
 test.i: test.c.i
@@ -178,7 +218,7 @@ test.i: test.c.i
 
 # target to preprocess a source file
 test.c.i:
-	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/test.c.i
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/test.c.i
 .PHONY : test.c.i
 
 test.s: test.c.s
@@ -187,7 +227,7 @@ test.s: test.c.s
 
 # target to generate assembly for a file
 test.c.s:
-	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/test.c.s
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/test.c.s
 .PHONY : test.c.s
 
 # Help Target
@@ -197,9 +237,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Project1"
+	@echo "... Letters"
 	@echo "... edit_cache"
-	@echo "... Project2"
+	@echo "... Arrays"
+	@echo "... Test"
+	@echo "... letters.o"
+	@echo "... letters.i"
+	@echo "... letters.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

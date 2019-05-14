@@ -27,8 +27,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Project1">
-				<Option output="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Project1" prefix_auto="0" extension_auto="0"/>
+			<Target title="Letters">
+				<Option output="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Letters" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -41,14 +41,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project1"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Letters"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Project1/fast">
-				<Option output="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Project1" prefix_auto="0" extension_auto="0"/>
+			<Target title="Letters/fast">
+				<Option output="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Letters" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -61,7 +61,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project1/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Letters/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -77,8 +77,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Project2">
-				<Option output="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Project2" prefix_auto="0" extension_auto="0"/>
+			<Target title="Arrays">
+				<Option output="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Arrays" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -91,14 +91,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project2"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Arrays"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Project2/fast">
-				<Option output="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Project2" prefix_auto="0" extension_auto="0"/>
+			<Target title="Arrays/fast">
+				<Option output="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Arrays" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -111,18 +111,61 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project2/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Arrays/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test">
+				<Option output="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test/fast">
+				<Option output="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/guru/Desktop/vassilis/bill_project/letters.c">
+			<Option target="Letters"/>
+		</Unit>
 		<Unit filename="/home/guru/Desktop/vassilis/bill_project/main.c">
-			<Option target="Project1"/>
+			<Option target="Arrays"/>
 		</Unit>
 		<Unit filename="/home/guru/Desktop/vassilis/bill_project/test.c">
-			<Option target="Project2"/>
+			<Option target="Test"/>
 		</Unit>
 		<Unit filename="/home/guru/Desktop/vassilis/bill_project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

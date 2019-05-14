@@ -3,5 +3,6 @@ project(Project1 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Project1 main.c)
-add_executable(Project2 test.c)
+add_executable(Arrays main.c)
+add_executable(Test test.c)
+add_executable(Letters letters.c)
