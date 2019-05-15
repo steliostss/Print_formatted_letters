@@ -1,4 +1,5 @@
 #include <stdio.h>
+<<<<<<< HEAD
 #include <tgmath.h>
 #include <malloc.h>
 #include <mem.h>
@@ -6,6 +7,75 @@
 
 
 const int recognise_letter (char letter) {
+=======
+#include <errno.h>
+#include <stdbool.h>
+#include <malloc.h>
+#include <string.h>
+
+int recognise_letter (char letter);
+bool check_input_for_errors(int argc, char** argv, const char* fontfile_path, const char* outfile_path);
+void print_letters (char* input, int width, int height, char* outfile_path);
+char* find_letter_in_fontfile(FILE* fontfile, int letter_index, int offset, int width, int height);
+void execute_program(char* input, FILE* fontfile, char* outfile_path);
+
+int main(int argc, char** argv)
+{
+    FILE* fontfile; //specify a pointer to fontfile, which is the reference file for printing the letters
+    FILE* outfile;  //specify a pointer to outfile
+    char* fontfile_path = NULL;
+    char* outfile_path  = NULL;
+
+    bool check = check_input_for_errors(argc, argv, fontfile_path, outfile_path);
+    
+    //if something went wrong end the execution;
+    if (!check) return -1;
+
+    fontfile = fopen(fontfile_path, "r"); //open file in read mode -> "r"
+    if (fontfile == NULL)
+    { //check if file exists
+        printf("Error opening fontfile. Errno = %d\n", errno);
+        return 1;
+    }
+
+    //READ INPUT HERE
+    char* input = argv[1];
+
+    execute_program(input, fontfile, outfile_path);
+
+    fclose(fontfile);
+    return 0;
+}
+
+bool check_input_for_errors(int argc, char **argv, const char *fontfile_path, const char *outfile_path)
+{
+    if (argc <= 2)
+    { //argc do not match requirements. Something is missing.
+        perror("Not enough argc, try again\n");
+        return false;
+    }
+    else if (argc >= 5)
+    { //argc do not match requirements. We have excess.
+        perror("Too many argc, try again\n");
+        return false;
+    }
+    else if (argc == 3)
+    { //argc are exactly 3 so only the fontfile is given. Print to stdout
+        fontfile_path = argv[2];
+        outfile_path = "stdout";
+        return true;
+    }
+    else
+    { //argc are exactly 4 so we have an outfile. Print in outfile.
+        fontfile_path = argv[2];
+        outfile_path = argv[3];
+        return true;
+    }
+}
+
+int recognise_letter (char letter) 
+{
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
     if (letter == 'a' || letter == 'A') return 1;
     else if (letter == 'b' || letter == 'B') return 2;
     else if (letter == 'g' || letter == 'G') return 3;
@@ -45,6 +115,7 @@ const int recognise_letter (char letter) {
     else return -1;
 }
 
+<<<<<<< HEAD
 int main (char argc, char** argv) {
     char* input;
     FILE* fontfile;
@@ -81,3 +152,68 @@ int main (char argc, char** argv) {
     fclose(fp);
     return 0;
 }
+=======
+//This function prints letter according to width and height
+void print_letters (char* input, int width, int height, char* outfile_path)
+{
+    //print to outfile or stdout depending on the contents of outfile_path
+    if ( strncmp(outfile_path, "stdout", 1) != 0) {
+        //outfile was given
+        FILE* outfile = fopen(outfile_path, "w");
+        if (outfile == NULL)
+        { //check if file exists
+            printf("Error opening outfile. Errno = %d\n", errno);
+//            return 1;
+            return;
+        }
+        //PRINT IN FILE
+        //COMPLETE THIS LINE
+    }
+    else {
+        //outfile was not given, print in stdout
+        //COMPLETE THIS LINE
+        return;
+    }
+}
+
+/*
+ * This function reads fontfile, jumps to the correct line according to letter_index
+ * and then adds the offset to get the desirable line from the fontfile.
+ * for example A with width=5 and height=5 is like that:
+ *
+ *      *****
+ *      *   *
+ *      *****
+ *      *   *
+ *      *   *
+ *
+ * and the call of the function is like that: find_letter (fontfile, 1, 2, 5, 5);
+ * from the fontfile we want the 2nd line of 1st letter
+ */
+char* find_letter_in_fontfile(FILE* fontfile, int letter_index, int offset, int width, int height)
+{
+    return NULL;
+}
+
+void execute_program(char* input, FILE* fontfile, char* outfile_path)
+{
+    int height = fgetc(fontfile);
+    fgetc(fontfile); //get space
+    int width  = fgetc(fontfile);
+
+    //WRITE FOR LOOP HERE
+    //Structure of program:
+    /*
+     *
+     * n = recognise_letter
+     * for(i=0; i<height; ++i) {
+     *      for(j=0; j<counter; ++j) {
+     *          temp_letter = find_letter(n, line, width, height);
+     *          print_letters(temp_letter, width, height, outfile_path);
+     *      }
+     * }
+     *
+     */
+}
+
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d

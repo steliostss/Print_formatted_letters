@@ -110,9 +110,10 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Project1
+# Target rules for targets named Letters
 
 # Build rule for target.
+<<<<<<< HEAD
 Project1: cmake_check_build_system
 	$(MAKE) -f CMakeFiles\Makefile2 Project1
 .PHONY : Project1
@@ -121,11 +122,22 @@ Project1: cmake_check_build_system
 Project1/fast:
 	$(MAKE) -f CMakeFiles\Project1.dir\build.make CMakeFiles/Project1.dir/build
 .PHONY : Project1/fast
+=======
+Letters: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Letters
+.PHONY : Letters
+
+# fast build rule for target.
+Letters/fast:
+	$(MAKE) -f CMakeFiles/Letters.dir/build.make CMakeFiles/Letters.dir/build
+.PHONY : Letters/fast
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
 
 #=============================================================================
-# Target rules for targets named Project2
+# Target rules for targets named Arrays
 
 # Build rule for target.
+<<<<<<< HEAD
 Project2: cmake_check_build_system
 	$(MAKE) -f CMakeFiles\Makefile2 Project2
 .PHONY : Project2
@@ -134,57 +146,138 @@ Project2: cmake_check_build_system
 Project2/fast:
 	$(MAKE) -f CMakeFiles\Project2.dir\build.make CMakeFiles/Project2.dir/build
 .PHONY : Project2/fast
+=======
+Arrays: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Arrays
+.PHONY : Arrays
+
+# fast build rule for target.
+Arrays/fast:
+	$(MAKE) -f CMakeFiles/Arrays.dir/build.make CMakeFiles/Arrays.dir/build
+.PHONY : Arrays/fast
+
+#=============================================================================
+# Target rules for targets named Test
+
+# Build rule for target.
+Test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Test
+.PHONY : Test
+
+# fast build rule for target.
+Test/fast:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/build
+.PHONY : Test/fast
+
+letters.o: letters.c.o
+
+.PHONY : letters.o
+
+# target to build an object file
+letters.c.o:
+	$(MAKE) -f CMakeFiles/Letters.dir/build.make CMakeFiles/Letters.dir/letters.c.o
+.PHONY : letters.c.o
+
+letters.i: letters.c.i
+
+.PHONY : letters.i
+
+# target to preprocess a source file
+letters.c.i:
+	$(MAKE) -f CMakeFiles/Letters.dir/build.make CMakeFiles/Letters.dir/letters.c.i
+.PHONY : letters.c.i
+
+letters.s: letters.c.s
+
+.PHONY : letters.s
+
+# target to generate assembly for a file
+letters.c.s:
+	$(MAKE) -f CMakeFiles/Letters.dir/build.make CMakeFiles/Letters.dir/letters.c.s
+.PHONY : letters.c.s
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
 
 main1.obj: main1.c.obj
 
 .PHONY : main1.obj
 
 # target to build an object file
+<<<<<<< HEAD
 main1.c.obj:
 	$(MAKE) -f CMakeFiles\Project1.dir\build.make CMakeFiles/Project1.dir/main1.c.obj
 .PHONY : main1.c.obj
+=======
+main.c.o:
+	$(MAKE) -f CMakeFiles/Arrays.dir/build.make CMakeFiles/Arrays.dir/main.c.o
+.PHONY : main.c.o
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
 
 main1.i: main1.c.i
 
 .PHONY : main1.i
 
 # target to preprocess a source file
+<<<<<<< HEAD
 main1.c.i:
 	$(MAKE) -f CMakeFiles\Project1.dir\build.make CMakeFiles/Project1.dir/main1.c.i
 .PHONY : main1.c.i
+=======
+main.c.i:
+	$(MAKE) -f CMakeFiles/Arrays.dir/build.make CMakeFiles/Arrays.dir/main.c.i
+.PHONY : main.c.i
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
 
 main1.s: main1.c.s
 
 .PHONY : main1.s
 
 # target to generate assembly for a file
+<<<<<<< HEAD
 main1.c.s:
 	$(MAKE) -f CMakeFiles\Project1.dir\build.make CMakeFiles/Project1.dir/main1.c.s
 .PHONY : main1.c.s
+=======
+main.c.s:
+	$(MAKE) -f CMakeFiles/Arrays.dir/build.make CMakeFiles/Arrays.dir/main.c.s
+.PHONY : main.c.s
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
 
 main2.obj: main2.c.obj
 
 .PHONY : main2.obj
 
 # target to build an object file
+<<<<<<< HEAD
 main2.c.obj:
 	$(MAKE) -f CMakeFiles\Project2.dir\build.make CMakeFiles/Project2.dir/main2.c.obj
 .PHONY : main2.c.obj
+=======
+test.c.o:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/test.c.o
+.PHONY : test.c.o
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
 
 main2.i: main2.c.i
 
 .PHONY : main2.i
 
 # target to preprocess a source file
+<<<<<<< HEAD
 main2.c.i:
 	$(MAKE) -f CMakeFiles\Project2.dir\build.make CMakeFiles/Project2.dir/main2.c.i
 .PHONY : main2.c.i
+=======
+test.c.i:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/test.c.i
+.PHONY : test.c.i
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
 
 main2.s: main2.c.s
 
 .PHONY : main2.s
 
 # target to generate assembly for a file
+<<<<<<< HEAD
 main2.c.s:
 	$(MAKE) -f CMakeFiles\Project2.dir\build.make CMakeFiles/Project2.dir/main2.c.s
 .PHONY : main2.c.s
@@ -205,6 +298,32 @@ help:
 	@echo ... main2.obj
 	@echo ... main2.i
 	@echo ... main2.s
+=======
+test.c.s:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/test.c.s
+.PHONY : test.c.s
+
+# Help Target
+help:
+	@echo "The following are some of the valid targets for this Makefile:"
+	@echo "... all (the default if no target is provided)"
+	@echo "... clean"
+	@echo "... depend"
+	@echo "... rebuild_cache"
+	@echo "... Letters"
+	@echo "... edit_cache"
+	@echo "... Arrays"
+	@echo "... Test"
+	@echo "... letters.o"
+	@echo "... letters.i"
+	@echo "... letters.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
 .PHONY : help
 
 

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="Project1" targetName="Project2" />
-      <config projectName="Project1" targetName="Project1" />
+      <config projectName="Project1" targetName="Letters" />
+      <config projectName="Project1" targetName="Arrays" />
+      <config projectName="Project1" targetName="Test" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -12,6 +13,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="25926704-2214-4d0f-bc8e-c1658a43e151" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/main1.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -48,6 +50,11 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Project2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main2.c" afterDir="false" />
+=======
+    <list default="true" id="25926704-2214-4d0f-bc8e-c1658a43e151" name="Default" comment="Complete fill_array">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters.c" beforeDir="false" afterPath="$PROJECT_DIR$/letters.c" afterDir="false" />
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,15 +67,33 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/letters.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="152" column="25" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#490#1267#0" />
+                <element signature="e#1273#2047#0" />
+                <element signature="e#2049#4110#0" />
+                <element signature="e#4112#4726#0" />
+                <element signature="e#4728#5163#0" />
+                <element signature="e#4728#5283#0" />
+              </folding>
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="main1.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main1.c">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,6 +114,13 @@
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fontfile.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2145">
+              <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
             </state>
           </provider>
         </entry>
@@ -97,25 +129,43 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
       <find>mul</find>
       <find>Mul</find>
     </findStrings>
+=======
+      <find>arguments</find>
+      <find>height</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>argc</replace>
+    </replaceStrings>
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/main1.c" root0="SKIP_INSPECTION" />
+=======
+    <setting file="file://$PROJECT_DIR$/main.c" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/letters.c" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test.c" />
         <option value="$PROJECT_DIR$/ελληνικσ/tester.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/main.c" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/main2.c" />
         <option value="$PROJECT_DIR$/main1.c" />
+=======
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/letters.c" />
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
       </list>
     </option>
   </component>
@@ -138,12 +188,29 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
+<<<<<<< HEAD
     <panes />
+=======
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bill_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -162,14 +229,39 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.Project2">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project1" RUN_TARGET_NAME="Project2" EXPLICIT_BUILD_TARGET_NAME="all" />
     <configuration name="Project1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project1" TARGET_NAME="Project1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project1" RUN_TARGET_NAME="Project2" />
     <configuration name="Project2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project1" TARGET_NAME="Project2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project1" RUN_TARGET_NAME="Project2" />
+=======
+  <component name="RunManager" selected="Application.Letters">
+    <configuration name="Arrays" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project1" TARGET_NAME="Arrays" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project1" RUN_TARGET_NAME="Arrays">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project1" RUN_TARGET_NAME="Project1" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Letters" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project1" TARGET_NAME="Letters" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project1" RUN_TARGET_NAME="Letters">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project1" TARGET_NAME="Test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project1" RUN_TARGET_NAME="Test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.Project1" />
-      <item itemvalue="Application.Project2" />
+      <item itemvalue="Application.Arrays" />
+      <item itemvalue="Application.Letters" />
+      <item itemvalue="Application.Test" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -185,6 +277,7 @@
       <workItem from="1553701811291" duration="2657000" />
       <workItem from="1554305167108" duration="3121000" />
       <workItem from="1554309073429" duration="2828000" />
+<<<<<<< HEAD
       <workItem from="1554316917106" duration="662000" />
       <workItem from="1554375555586" duration="10330000" />
       <workItem from="1554394043312" duration="3075000" />
@@ -196,6 +289,13 @@
       <workItem from="1554399089419" duration="52000" />
       <workItem from="1554399163111" duration="1926000" />
       <workItem from="1554401140999" duration="206000" />
+=======
+      <workItem from="1554316917106" duration="710000" />
+      <workItem from="1557410124838" duration="43000" />
+      <workItem from="1557410975476" duration="3086000" />
+      <workItem from="1557865432114" duration="461000" />
+      <workItem from="1557786324002" duration="73000" />
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
     </task>
     <task id="LOCAL-00001" summary="Complete fill_array">
       <created>1554309371678</created>
@@ -208,15 +308,27 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="25944000" />
+=======
+    <option name="totallyTimeSpent" value="12979000" />
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="1" weight="0.24816984" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.26232114" />
       <window_info anchor="bottom" id="CMake" order="4" weight="0.3290938" />
+=======
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1383855" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3290938" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.17576419" />
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.24165341" />
@@ -544,6 +656,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="102">
           <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
         </state>
@@ -556,16 +669,62 @@
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="105">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main2.c">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="88">
           <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+=======
+        <state relative-caret-position="255">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="138" column="60" selection-start-line="138" selection-start-column="60" selection-end-line="138" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/stdio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="472" column="3" selection-start-line="472" selection-start-column="3" selection-end-line="472" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letters.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="152" column="25" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="25" />
+>>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#490#1267#0" />
+            <element signature="e#1273#2047#0" />
+            <element signature="e#2049#4110#0" />
+            <element signature="e#4112#4726#0" />
+            <element signature="e#4728#5163#0" />
+            <element signature="e#4728#5283#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fontfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2145">
+          <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
         </state>
       </provider>
     </entry>
