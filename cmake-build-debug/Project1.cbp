@@ -8,34 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/School/Cmc/bill_project/cmake-build-debug"/>
+				<Option working_dir="D:/School/Cmc/Project1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/School/Cmc/bill_project/cmake-build-debug"/>
+				<Option working_dir="D:/School/Cmc/Project1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-<<<<<<< HEAD
 			<Target title="Project1">
-				<Option output="D:/School/Cmc/bill_project/cmake-build-debug/Project1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/School/Cmc/bill_project/cmake-build-debug"/>
-=======
-			<Target title="Letters">
-				<Option output="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Letters" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug"/>
->>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
+				<Option output="D:/School/Cmc/Project1/cmake-build-debug/Project1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Cmc/Project1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -45,27 +39,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-<<<<<<< HEAD
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project1"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project1"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project1/fast">
-				<Option output="D:/School/Cmc/bill_project/cmake-build-debug/Project1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/School/Cmc/bill_project/cmake-build-debug"/>
-=======
-					<Build command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Letters"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Letters/fast">
-				<Option output="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Letters" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug"/>
->>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
+				<Option output="D:/School/Cmc/Project1/cmake-build-debug/Project1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Cmc/Project1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,37 +57,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-<<<<<<< HEAD
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project1/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project1/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project2">
-				<Option output="D:/School/Cmc/bill_project/cmake-build-debug/Project2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/School/Cmc/bill_project/cmake-build-debug"/>
-=======
-					<Build command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Letters/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Arrays">
-				<Option output="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Arrays" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug"/>
->>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
+				<Option output="D:/School/Cmc/Project1/cmake-build-debug/Project2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Cmc/Project1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -115,27 +75,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-<<<<<<< HEAD
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project2"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project2"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project2/fast">
-				<Option output="D:/School/Cmc/bill_project/cmake-build-debug/Project2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/School/Cmc/bill_project/cmake-build-debug"/>
-=======
-					<Build command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Arrays"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Arrays/fast">
-				<Option output="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Arrays" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug"/>
->>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
+				<Option output="D:/School/Cmc/Project1/cmake-build-debug/Project2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Cmc/Project1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -145,88 +93,108 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-<<<<<<< HEAD
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project2/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project2/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="letters">
+				<Option output="D:/School/Cmc/Project1/cmake-build-debug/letters.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Cmc/Project1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 letters"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="letters/fast">
+				<Option output="D:/School/Cmc/Project1/cmake-build-debug/letters.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Cmc/Project1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 letters/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/School/Cmc/bill_project/cmake-build-debug"/>
+				<Option working_dir="D:/School/Cmc/Project1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="letters2">
+				<Option output="D:/School/Cmc/Project1/cmake-build-debug/letters2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Cmc/Project1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 letters2"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="letters2/fast">
+				<Option output="D:/School/Cmc/Project1/cmake-build-debug/letters2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Cmc/Project1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 letters2/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/Cmc/Project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/School/Cmc/bill_project/main1.c">
+		<Unit filename="D:/School/Cmc/Project1/letters.c">
+			<Option target="letters"/>
+		</Unit>
+		<Unit filename="D:/School/Cmc/Project1/letters2.c">
+			<Option target="letters2"/>
+		</Unit>
+		<Unit filename="D:/School/Cmc/Project1/main1.c">
 			<Option target="Project1"/>
 		</Unit>
-		<Unit filename="D:/School/Cmc/bill_project/main2.c">
+		<Unit filename="D:/School/Cmc/Project1/main2.c">
 			<Option target="Project2"/>
-=======
-					<Build command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Arrays/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Test">
-				<Option output="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Test/fast">
-				<Option output="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/guru/Desktop/vassilis/bill_project/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guru/Desktop/vassilis/bill_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-		</Build>
-		<Unit filename="/home/guru/Desktop/vassilis/bill_project/letters.c">
-			<Option target="Letters"/>
 		</Unit>
-		<Unit filename="/home/guru/Desktop/vassilis/bill_project/main.c">
-			<Option target="Arrays"/>
-		</Unit>
-		<Unit filename="/home/guru/Desktop/vassilis/bill_project/test.c">
-			<Option target="Test"/>
->>>>>>> 0b1d5dfe4d5ece48aaaa1fe37192c1ce7aeaa82d
-		</Unit>
-		<Unit filename="D:/School/Cmc/bill_project/CMakeLists.txt">
+		<Unit filename="D:/School/Cmc/Project1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
