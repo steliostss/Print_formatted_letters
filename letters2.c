@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <errno.h>
-#include <mem.h>
 #include <malloc.h>
+//#include <mem.h>
+#include <string.h>
 
 int recognise_letters(char letter);
-void print_letters(FILE* fontfile, const char* outfile_path, int current_line, int width);
-void execute_program(char* input, FILE* fontfile, char* outfile_path);
+void print_letters(FILE* fontfile, char* fontfile_path, char* outfile_path, int current_line, int width);
+void execute_program(char* input, FILE* fontfile, char* fontfile_path, char* outfile_path);
 
 
 int main(int argc, char** argv) {
@@ -43,7 +44,7 @@ int main(int argc, char** argv) {
 
     char* input = argv[1];
 
-    execute_program(input, fontfile, outfile_path);
+    execute_program(input, fontfile, fontfile_path, outfile_path);
 
     return 0;
 }
@@ -89,7 +90,7 @@ int recognise_letters(char letter){
     else return 38;
 }
 
-void print_letters(FILE* fontfile, const char* outfile_path, int current_line, int width) {
+void print_letters(FILE* fontfile, char* fontfile_path, char* outfile_path, int current_line, int width) {
     FILE* outfile = NULL;
     if (outfile_path == "stdout") {
         outfile = stdout;
@@ -105,29 +106,36 @@ void print_letters(FILE* fontfile, const char* outfile_path, int current_line, i
 
     char* buffer = malloc(buffer_size * sizeof(char));
     int line_counter = 0;
+    char myString[5];
+
     while (getline(&buffer, &buffer_size, fontfile) != -1) {
         if (line_counter == current_line) {
-            fprintf(outfile, "%s", buffer);
+            strncpy(myString, buffer, 5);
+            fprintf(outfile, "%s", myString);
             line_counter = 0;
             return;
         }
         line_counter++;
+        fflush(stdout);
     }
     fclose(outfile);
 }
 
-void execute_program(char *input, FILE *fontfile, char *outfile_path) {
+void execute_program(char *input, FILE *fontfile, char* fontfile_path, char *outfile_path) {
     int width = fgetc(fontfile) - '0';
     fgetc(fontfile); //space between width and height
     int height = fgetc(fontfile) - '0';
     int letters_counter = strlen(input);
+    fclose(fontfile);
     for(int j=0; j<height; ++j) {
         for(int i=0; i<letters_counter; ++i) {
+            fopen(fontfile_path, "r");
             int n = recognise_letters(input[i]);
             int current_line = height*(n-1)+1+n+j;
-            print_letters(fontfile, outfile_path, current_line, width);
+            print_letters(fontfile, fontfile_path, outfile_path, current_line, width);
+            fclose(fontfile);
         }
-        print_letters(fontfile, outfile_path, -1, width);
+        print_letters(fontfile, fontfile_path, outfile_path, -1, width);
     }
 }
 
