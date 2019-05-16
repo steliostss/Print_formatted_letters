@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <stdbool.h>
 #include <errno.h>
 #include <mem.h>
-#include <malloc.h>
 
 int recognise_letters(char letter);
+bool check_input_for_errors(int argc, char** argv, const char* fontfile_path, const char* outfile_path);
 void print_letters(FILE* fontfile, const char* outfile_path, int current_line, int width);
 void execute_program(char* input, FILE* fontfile, char* outfile_path);
 
@@ -12,28 +13,10 @@ int main(int argc, char** argv) {
     FILE* fontfile;
     char* fontfile_path = 0;
     char* outfile_path = 0;
-    int flag = 0; //0 = false, 1 = true
 
-    if (argc <= 2){
-        perror("Not enough arguments\n");
-        flag = 0; //false -> exit
-    }
-    else if (argc >= 5){
-        perror("Too many arguments\n");
-        flag = 0; //false -> exit
-    }
-    else if (argc == 3) {
-        fontfile_path = argv[2];
-        outfile_path = "stdout";
-        flag = 1; //true -> continue
-    }
-    else {
-        fontfile_path = argv[2];
-        outfile_path = argv[3];
-        flag = 1; //true -> continue
-    }
+    bool check = check_input_for_errors(argc, argv, fontfile_path, outfile_path);
 
-    if (!flag) return -1;
+    if (!check) return -1;
 
     fontfile = fopen(fontfile_path, "r");
     if (fontfile == NULL){
@@ -89,7 +72,30 @@ int recognise_letters(char letter){
     else return 38;
 }
 
+bool check_input_for_errors(int argc, char **argv, const char *fontfile_path, const char *outfile_path) {
+    if (argc <= 2){
+        perror("Not enough arguments\n");
+        return false;
+    }
+    else if (argc >= 5){
+        perror("Too many arguments\n");
+        return false;
+    }
+    else if (argc == 3) {
+        fontfile_path = argv[2];
+        outfile_path = "stdout";
+        return true;
+    }
+    else {
+        fontfile_path = argv[2];
+        outfile_path = argv[3];
+        return true;
+    }
+}
+
 void print_letters(FILE* fontfile, const char* outfile_path, int current_line, int width) {
+    char line[width];
+    int line_counter = 0;
     FILE* outfile = NULL;
     if (outfile_path == "stdout") {
         outfile = stdout;
@@ -97,37 +103,25 @@ void print_letters(FILE* fontfile, const char* outfile_path, int current_line, i
     else  {
         outfile = fopen(outfile_path, "w");
     }
-    if (current_line == -1) {
-        fprintf(outfile, "%c", '\n');//print newline in file
-        return;
-    }
-    size_t buffer_size = width+1;
-
-    char* buffer = malloc(buffer_size * sizeof(char));
-    int line_counter = 0;
-    while (getline(&buffer, &buffer_size, fontfile) != -1) {
-        if (line_counter == current_line) {
-            fprintf(outfile, "%s", buffer);
-            line_counter = 0;
-            return;
-        }
+    while (fgets(line, width, fontfile)) {
         line_counter++;
+        if (line_counter == current_line) {
+            fprintf(outfile, "%s", line);
+        }
     }
     fclose(outfile);
 }
 
 void execute_program(char *input, FILE *fontfile, char *outfile_path) {
-    int width = fgetc(fontfile) - '0';
+    int width = fgetc(fontfile);
     fgetc(fontfile); //space between width and height
-    int height = fgetc(fontfile) - '0';
-    int letters_counter = strlen(input);
+    int height = fgetc(fontfile);
     for(int j=0; j<height; ++j) {
-        for(int i=0; i<letters_counter; ++i) {
+        for(int i=0; i<width; ++i) {
             int n = recognise_letters(input[i]);
-            int current_line = height*(n-1)+1+n+j;
+            int current_line = height*(n-1)+2+n+j;
             print_letters(fontfile, outfile_path, current_line, width);
         }
-        print_letters(fontfile, outfile_path, -1, width);
     }
 }
 
