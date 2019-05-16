@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/letters2.dir/letters2.c.o  -o letters2 

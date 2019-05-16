@@ -1,6 +1,0 @@
-/home/guru/Desktop/bill_project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/guru/Desktop/bill_project/cmake-build-debug/CMakeFiles/letters2.dir
-/home/guru/Desktop/bill_project/cmake-build-debug/CMakeFiles/Project1.dir
-/home/guru/Desktop/bill_project/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/guru/Desktop/bill_project/cmake-build-debug/CMakeFiles/letters.dir
-/home/guru/Desktop/bill_project/cmake-build-debug/CMakeFiles/Project2.dir
