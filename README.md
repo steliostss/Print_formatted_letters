@@ -1,6 +1,1 @@
-# bill_project
-
-
-
-
-KBKHB
+Print input letters/phrases formatted 
